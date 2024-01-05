@@ -1,3 +1,4 @@
+#方法三不會其他參照網路上作答
 # 方法 1
 def power2n(n):
     return 2**n
@@ -19,6 +20,3 @@ def power2n_2b(n):
         return 2
 
     return 2*power2n_2b(n-1)
-
-
-# 方法 3不會
